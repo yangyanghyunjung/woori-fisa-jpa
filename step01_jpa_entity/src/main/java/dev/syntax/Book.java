@@ -20,7 +20,13 @@ public class Book {
         this.bookName = bookName;
         this.author = author;
     }
+    public int getId() {
+        return id;
+    }
 
+    public String getBookName() {
+        return bookName;
+    }
     @Override
     public String toString() {
         return "Book{" +
